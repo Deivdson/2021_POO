@@ -2,6 +2,6 @@ using System;
 
 class Program {
   public static void Main (string[] args) {
-    Console.WriteLine ("Hello World");
+    int i = 1; while (i <= 10) { Console.WriteLine(i); i++; }
   }
 }

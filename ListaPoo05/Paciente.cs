@@ -3,12 +3,13 @@ using System;
 class Program {
   public static void Main(string[] args){
     Paciente x = new Paciente("Dofi", "xxxxxxxxx-xx", "999999999", DateTime.Parse("02/12/2000"));
+    Console.WriteLine(x.nome);
     Console.WriteLine(x.Idade());
   }
 }
 
 class Paciente{
-  private string nome;
+  private string nome{get; set;};
   private string cpf;
   private string telefone;
   private DateTime nascimento;

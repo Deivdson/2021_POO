@@ -28,7 +28,7 @@ class Pais : IComparable<Pais>{
   public int Prata{get=>prata;}
   public int Bronze{get=>bronze;}
   
-  public Pais(string nome, int ouro, int prta, int bronze){
+  public Pais(string nome, int ouro, int prata, int bronze){
     this.nome = nome;
     this.ouro = ouro;
     this.prata = prata;
